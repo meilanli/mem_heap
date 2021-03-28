@@ -10,12 +10,12 @@
 	
 	注意，如果频繁申请大小不一的内存，也是会产生内存碎片的。
 	更多详细 参见RT-Thread 小内存管理算法
-##移植
+## 移植
 	在mem_heap.h里面，定义用作管理的内存区间：
 	MEM_HEAP_BEGIN 	起始地址
 	MEM_HEAP_END	结束地址
 	
-##接口
+## 接口
 	heap_malloc	申请内存
 	heap_free	释放内存
 	heap_get_info	获取内存使用情况
