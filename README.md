@@ -15,6 +15,7 @@
 	MEM_HEAP_BEGIN 	起始地址
 	MEM_HEAP_END	结束地址
 	
+	
 ## 接口
 	heap_malloc	申请内存
 	heap_free	释放内存
